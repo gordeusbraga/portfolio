@@ -9,29 +9,42 @@
     <link rel="stylesheet" href="styles/output.css">
     <title>Gordeus Portfolio</title>
 </head>
-<body>
+<body class="bg-slate-50">
     <header class="py-5 ">
         <h1 class="text-5xl md:text-6xl lg:text-7xl font-sans font-bold tracking-wider text-center lg:mb-4"
          >Portfolio</h1>
     </header>
-    <nav class=" px-5 py-5  lg:ml-5 lg:mr-5 flex items-center justify-center ">
+    <nav class=" pl-5 py-5  lg:ml-5 lg:mr-5 flex items-center justify-center w-full">
         <h2 class="font-sans font-medium text-sm md:text-2xl lg:text-3xl flex"> Matheus Braga </h2>
         <div class=" text-end px-5 ml-4 md:ml-20 lg:ml-44 flex items-end"> 
-            <a href="#" class=" font-sans font-medium text-sm md:text-2xl lg:text-3xl">Sobre</a>
+            <a href="#sobre" class=" font-sans font-medium text-sm md:text-2xl lg:text-3xl">Sobre</a>
             <a href="#" class=" font-sans font-medium text-sm md:text-2xl lg:text-3xl ml-3 xl:ml-5">Projetos</a>
             <a href="#" class=" font-sans font-medium text-sm md:text-2xl lg:text-3xl ml-3  xl:ml-5" >Contato</a>
         </div>
     </nav>
-    <main class=" mt-5 flex w-full h-full items-center justify-center">
+    <main class=" mt-5 flex flex-col w-full h-full items-center justify-center">
         <section class="flex flex-col justify-center items-center">
-                <img src="images/fotodeperfil.jpg" alt=" FotoMatheusBraga" class="rounded-full w-48 h-48 mb-6 shadow-lg " >
-                <p class="text-center px-8 mb-2 font-medium md:text-2xl xl:text-4xl">Bem vindo ao meu Portfolio.</p>
-                <p class="text-justify px-8 md:text-xl xl:text-3xl">Me chamo Matheus Braga Carraro Pedrosa e sou técnico em Automação Industrial e Desenvolvedor</p>
+                <img src="images/fotodeperfil.jpg" alt=" FotoMatheusBraga" class="rounded-full w-48 h-48 mb-7 shadow-lg " >
+                <p class="text-center px-8 mb-3 font-medium md:text-2xl xl:text-4xl " id="#sobre">Bem vindo ao meu Portfolio.</p><br>
+                <p class="text-justify px-8 mb-3 md:text-xl xl:text-3xl max-w-7xl">Me chamo Matheus Braga Carraro Pedrosa e sou técnico em Automação Industrial e Desenvolvedor.</p> <br>
+                <p class=" text-justify px-8 md:text-xl xl:text-3xl max-w-7xl">Tenho pratica em desenvolvimento web (HTML, CSS, JS) e Programação PLC | Noção em segurança da informação | Experiência em Arduino (Montagem, programação, componentes eletrônicos) | CNH categoria B.</p>
         </section>
 
+        
 
+        <!-- Projetos -->
+        <section>
 
-
+            <div class="mt-16 border-solid border-2 border-black -p">
+                <div class=" flex items-center justify-center w-ful ">
+                    <img src="images/tmbProject.jpg" alt="ProjetoTMB" class="w-48 mb-7 mt-8 rounded" >
+                </div>
+                <p class="text-center mb-3 font-medium md:text-2xl xl:text-4xl">Taxa Metabolica Basal (TMB)</p>
+                <p class="text-justify md:text-xl xl:text-3xl max-w-7xl px-5">O projeto foi realizado para testar os conhecimentos em HTML, CSS e JS e utilizá-lo para realizar cálculos da TMB, que é usada para calcular a dieta das pessoas conforme o gasto calórico.</p>
+            </div>
+        </section>
+      <!-- Projetos -->
     </main>
+    
 </body>
 </html>
